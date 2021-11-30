@@ -3,7 +3,7 @@ body, html {
    padding: 0;
    text-align: center;
    background-color: #B3E0EE;
-   height: 100%;
+   min-height: 100vh;
    position: relative;  
 }
 
