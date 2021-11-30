@@ -5,6 +5,11 @@ body, html {
    background-color: #B3E0EE;
 }
 
+#page-container {
+   position: relative;
+   min-height: 100vh;
+}
+
 h1 {
 font-size: 25px;
 }
