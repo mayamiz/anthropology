@@ -31,6 +31,15 @@ border: 5px solid white;
 margin: 17px;
 }
 
+.body {
+   border: 4px;
+   border-style: solid;
+   border-color: black;
+   margin: 4%;
+   box-shadow: 6px 6px;
+   
+}
+
 .footer {
 color: white;
 background-color: #103F54;
@@ -43,13 +52,4 @@ border-style: solid;
  
 .footer h1:hover {
 color: yellow;
-}
-
-.body {
-   border: 4px;
-   border-style: solid;
-   border-color: black;
-   margin: 4%;
-   box-shadow: 6px 6px;
-   
 }
