@@ -53,20 +53,3 @@ color: yellow;
    box-shadow: 6px 6px;
    
 }
-
-@media screen and (max-width: 750px) {
-
-   .main img {
-      display: none;
-   }
-
-   .mobilepicture {
-      display: block;
-      height: 100%;
-      width: 100%;
-   }
-
-   .header a {
-      margin-right: 16px;
-   }
-}
