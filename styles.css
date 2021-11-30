@@ -7,6 +7,14 @@ body, html {
    position: relative;  
 }
 
+.container {
+   min-height: 100vh;
+   overflow: hidden;
+   display: block;
+   position: relative;
+   padding-bottom: 120px;
+}
+
 h1 {
 font-size: 25px;
 }
