@@ -2,77 +2,47 @@ body, html {
    margin: 0;
    padding: 0;
    text-align: center;
-   background-color: #D8DDF3;
+   background-color: #B3E0EE;
+}
+
+h1 {
+font-size: 25px;
+}
+
+h2 {
+font-family: 'Maitree', serif;
+font-size: 25px;
 }
 
 .header {
-padding: 30px;
+padding: 50px;
+color: #083346;
+font-family: 'Maitree', serif;
+background-color: #48B5D6;
+border-style: solid;
+border-width: 5px
+}
+
+.main img {
+width: 500px;
+height: 800px;
+position: absolute; left: 0px;
+border: 5px solid white;
+margin: 17px;
+}
+
+.footer {
 color: white;
-font-family: 'Oswald', sans-serif;
-background-color: #6664AD;
+background-color: #103F54;
+position:absolute;
+bottom:0;
+width: 100%;
+height: 120px;
+border-style: solid;
 }
-
-.header a { 
-   font-family: 'Khand', sans-serif;
-   color: black;
-   text-decoration: none;
-   font-size: 20px;
-   margin-right: 40px;
-}
-
-.header a:hover {
-   color: yellow;
-}
-
-.header a:active {
-   color: yellow;
-}
-
-.cart a {
-   font-size: 30px;
-   color: blue;
-   position: relative;
-   bottom: 550px;
-   right: -520px;
-}
-.main {
-   margin: 2%;
-}
-
-.mobilepicture {
-   display: none;
-}
-
-.contact h1 {
-   padding: 20px;
-   margin: 0.5%;
-}
-
-.contact input {
-   font-size: 18px;
-   
-}
-
-.contact input[type="submit"] {
-   padding: 10px;
-   border: none;
-   color: white;
-   background: black;
-}
-
-.footer a {
-   font-size: 40px;
-   display: inline;
-   position: relative;
-   bottom: -70px;
-}
-
-.submit {
-   display: inline;
-}
-
-.products {
-   margin: 5%;
+ 
+.footer h1:hover {
+color: yellow;
 }
 
 .body {
@@ -94,12 +64,6 @@ background-color: #6664AD;
       display: block;
       height: 100%;
       width: 100%;
-   }
-
-   .cart a {
-      position: relative;
-      right: -125px;
-      bottom: 470px;
    }
 
    .header a {
